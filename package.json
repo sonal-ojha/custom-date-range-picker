@@ -1,0 +1,61 @@
+{
+    "name": "custom-date-range-picker",
+    "version": "1.0.0",
+    "description": "A custom date range picker with last 7,30, N days, This/Last month, A range calender to pick range of dates",
+    "main": "./lib/DatePicker.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git"
+    },
+    "keywords": [
+        "react",
+        "ratings",
+        "rating",
+        "star ratings",
+        "star-ratings",
+        "react-reviews",
+        "react-ratings",
+        "react-rating",
+        "react ratings",
+        "react rating"
+    ],
+    "scripts": {
+        "build": "webpack"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.6.0",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.21.0",
+        "babel-loader": "^8.0.5",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "bootstrap-daterangepicker": "3.0.5",
+        "jquery": "3.4.0",
+        "moment": "2.24.0",
+        "rc-tooltip": "3.7.3",
+        "react-bootstrap-daterangepicker": "4.1.0",
+        "semantic-ui-react": "0.86.0",
+        "css-loader": "^2.1.1",
+        "file-loader": "^3.0.1",
+        "path": "^0.12.7",
+        "prop-types": "^15.6.0",
+        "react": "16.8.6",
+        "react-dom": "^16.0.0",
+        "style-loader": "^0.23.1",
+        "url-loader": "^1.0.1",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^3.3.1"
+    },
+    "dependencies": {
+        "@babel/core": "7.4.4",
+        "@babel/plugin-proposal-class-properties": "7.4.4",
+        "@babel/preset-env": "7.4.4",
+        "@babel/preset-react": "7.0.0",
+        "@babel/preset-stage-0": "7.0.0",
+        "@emotion/core": "10.0.10"
+    }
+}
