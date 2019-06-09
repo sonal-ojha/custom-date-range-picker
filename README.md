@@ -1,6 +1,9 @@
 # CustomDateRangePicker
 
 custom-date-range-picker is a simple to use yet customizable component for having different Date Range selection.
+  - Date Range Picker has Today, Yesterday, Last 7 Days(default), Last 30 Days, This Month, Last Month, Custom Range and Last N (user entered number) days.
+  - On click of Custom Range, a date range selection popup opens and the Selected Range is visible in the Input box. Note: User cannot select Date greater that the current Date.
+  - Max Number of days to be allowed in Last N Days is Props based. for example: 365 days/730 days....
 
   - CSS customizable & Custom position - Work in Progress,
 
@@ -13,7 +16,7 @@ npm i custom-date-range-picker
 
 ### How to Use
 
-Install and import rcustom-date-range-picker and pass the props as per the below table
+Install and import custom-date-range-picker and pass the props as per the below table
 
 ```sh
 import React, { Component } from 'react';
@@ -48,6 +51,7 @@ class App extends Component {
         </p>
         <CustomDateRangePicker 
           getDateRange={this.selectedDateRange}
+          maxNdays={365}
         />
       </div>
     );

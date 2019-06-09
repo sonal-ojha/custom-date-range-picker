@@ -60,9 +60,9 @@ const nDays = css`
 `;
 
 const nDaysInput = css`
-    width: 70px;
+    width: 65px;
     padding: 0px;
-    margin: -1px 4px 0px 4px;
+    margin: 4px 0px 0px 5px;
     z-index: 56;
 `;
 
