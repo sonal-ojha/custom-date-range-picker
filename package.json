@@ -1,6 +1,6 @@
 {
     "name": "custom-date-range-picker",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A custom date range picker with last 7,30, N days, This/Last month, A range calender to pick range of dates",
     "main": "./lib/CustomDatePicker.js",
     "license": "MIT",
@@ -9,15 +9,11 @@
     },
     "keywords": [
         "react",
-        "ratings",
-        "rating",
-        "star ratings",
-        "star-ratings",
-        "react-reviews",
-        "react-ratings",
-        "react-rating",
-        "react ratings",
-        "react rating"
+        "react-date-range",
+        "date",
+        "date picker",
+        "date range picker",
+        "custom date range picker"
     ],
     "scripts": {
         "build": "webpack"
